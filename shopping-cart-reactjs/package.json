@@ -4,6 +4,8 @@
   "description": "Pricing component with flux",
   "main": "js/app.js",
   "dependencies": {
+    "directify": "^0.1.2",
+    "director": "^1.2.7",
     "flux": "^2.0.0",
     "react": "^0.12.0",
     "underscore": "^1.7.0"

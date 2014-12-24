@@ -15,6 +15,7 @@ var FluxCartActions = {
 
     // Set currently selected product variation
     selectProduct: function(index) {
+        console.log('selectProduct: ', index);
         AppDispatcher.handleAction({
             actionType: FluxCartConstants.SELECT_PRODUCT,
             data: index
