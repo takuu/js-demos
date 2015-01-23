@@ -14,7 +14,7 @@ var About = React.createClass({
             <div>
                 <h2>This is the About page</h2>
                 <p>this page is dedicated to Takulist</p>
-                <a href="/">go back home</a>
+                <a href="/#/">go back home</a>
             </div>
         );
     }

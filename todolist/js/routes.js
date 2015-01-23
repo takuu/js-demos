@@ -1,7 +1,6 @@
 var Router = require('director').Router;
 var About = require('./components/about');
 var Todolist = require('./components/todolist');
-//var FluxCartActions = require('./actions/FluxCartActions');
 
 //console.log('Director Router: ',Router);
 // We're going to load all our routes here... lawl
@@ -13,9 +12,6 @@ var about = function () {
         <div> <About /> </div>,
         document.getElementById('todolist')
     );
-    //foo.remove();
-    //FluxCartActions.selectProduct(1);
-
 };
 
 var clear = function () {
@@ -31,16 +27,13 @@ var home = function () {
     );
 };
 
-var foobar = function () {
-    console.log('foobaz!!');
-};
 var routes = {
     '/about': about,
     '/': home
 };
 
 var router = new Router(routes);
-//router.configure();
-console.log('foobar', router);
+//router.configure({ html5history: true });
+console.log('router: ', router);
 
 module.exports = router;
