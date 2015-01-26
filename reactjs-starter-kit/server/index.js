@@ -25,7 +25,7 @@ server.get('*', function(req, res) {
   var bootstrap = {
     path: req.path
   };
-
+console.log('Application.start(' + htmlescape(bootstrap) + ');');
   var layoutData = _.defaults({
     applicationStart: 'Application.start(' + htmlescape(bootstrap) + ');',
   }, LayoutConfig);
