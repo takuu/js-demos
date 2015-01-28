@@ -53,5 +53,4 @@ var App = React.createClass({
   }
 });
 
-console.log('foo2');
 module.exports = App;

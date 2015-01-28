@@ -38,6 +38,4 @@ if (!ExecutionEnvironment.canUseDOM) {
   Application.RouteUtils = require('./utils/RouteUtils');
 }
 
-console.log('foobar', Application);
-
 module.exports = Application;
